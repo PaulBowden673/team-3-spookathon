@@ -23,6 +23,11 @@ body {
   vertical-align: bottom;
 }
 
+.nav-text2 {
+  font-family: 'Eater', cursive;
+  vertical-align: bottom;
+}
+
 h1 {
   font-weight: 600;
   margin: 0px;
