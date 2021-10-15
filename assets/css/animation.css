@@ -182,17 +182,16 @@
 }
 
 /* style and position the links */
-ul li a {
+.scare {
     position: relative;
     display: inline-block;
     padding: 5px 10px;
-    font-weight: 600;
-    color: #b44fff;
+    color: #111;
     text-decoration: none;
     transform: translateX(0);
     transition: background 0.5s ease;
  }
- ul li:hover a {
+ .scare:hover  {
     color: blue;
     transform-origin: bottom center;
     animation: shiver .6s forwards;
