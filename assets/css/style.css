@@ -1,19 +1,18 @@
 @import url(https://fonts.googleapis.com/css?family=Work+Sans:300,600);
 
+
 body{
-	font-size: 20px;
+	font-size: 2rem;
 	font-family: 'Work Sans', sans-serif;
-	color: #333;
+  background-color: #B0A1BA;
+  color: #6A994E;
   font-weight: 300;
   text-align: center;
-  background-color: #f8f6f0;
-  background: url("") center center no-repeat;
-  background-size: cover;
   z-index: -4;
 
 }
 h1{
-  font-weight: 300;
+  font-weight: 600;
   margin: 0px;
   padding: 10px;
   font-size: 20px;
@@ -22,6 +21,7 @@ h1{
 }
 .question{
   font-size: 30px;
+  font-weight: 600;
   margin-bottom: 10px;
 }
 .answers {
@@ -50,7 +50,7 @@ button:hover{
 }
 
 a {
-  text-decoration:none;
+  text-decoration: none;
   font-family:Arial;
   display: block;
 }
@@ -75,5 +75,30 @@ a {
   position: relative;
   height: 200px;
   margin-top: 40px;
+}
+
+/* Footer Section */
+
+#footer a {
+  color: #FF934F;
+}
+
+#footer a:hover {
+  color: #FFEE88;
+}
+
+.footer-divider {
+  background-position: bottom left;
+  background-repeat: repeat-x;
+  background-size: contain;
+  height: 600px;
+  position: relative;
+  bottom: -2px;
+}
+
+.footer-content {
+  background-color: #000;
+  padding: 1rem 0;
+  height: 300px;
 }
 
