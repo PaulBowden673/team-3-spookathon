@@ -174,3 +174,26 @@
         opacity: 1;
     }
 }
+
+/* animate the links on hover */
+@keyframes shiver {
+	0%, 20%, 40%, 60%, 80% {transform: translateX(4px) translateY(-4px) scale(1.4) rotate(-6deg); color: white;}
+	10%, 30%, 50%, 70%, 90% {transform: translateX(-4px) translateY(-4px) scale(1.4) rotate(1deg); color: red;}
+}
+
+/* style and position the links */
+ul li a {
+    position: relative;
+    display: inline-block;
+    padding: 5px 10px;
+    font-weight: 600;
+    color: #b44fff;
+    text-decoration: none;
+    transform: translateX(0);
+    transition: background 0.5s ease;
+ }
+ ul li:hover a {
+    color: blue;
+    transform-origin: bottom center;
+    animation: shiver .6s forwards;
+ }
