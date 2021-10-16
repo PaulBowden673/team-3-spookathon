@@ -2,7 +2,7 @@
 
 This a Spookathon web app called *"Creepy House"* developed by the **Creeping it real team** .
 
-![Spookathon logo](wireframes\Hackathonlogo.png)
+![Spookathon logo](wireframes/Hackathonlogo.png)
 
 ## UX
 
@@ -41,11 +41,11 @@ The themes of this project is Halloween and Trick or Treat.
 
 #### Wireframe
 
-![wireframe](wireframes\wireframe.png)
+![wireframe](wireframes/wireframe.png)
 
 #### Story Workflow
 
-![workflow](wireframes\storyboard-flow.png)
+![workflow](wireframes/storyboard-flow.png)
 
 ### Surface
 
