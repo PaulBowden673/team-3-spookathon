@@ -104,10 +104,15 @@
     const resultsContainer = document.getElementById('results');
     const submitButton = document.getElementById('submit');
     const myQuestions = [{
-        question: "Who invented JavaScript?",
+        question: `You're out trick or treating with your younger sister.
+        It's cold, dark and you've strayed away from the streets you know to an unfamiliar part of town.
+        You walk up to the next house which is different from the other houses on the road. 
+        It has a large wrought iron fence around the perimeter, overgrown trees, bushes hanging over the fence and some broken windows
+        on the top floor.
+        As you're about to turn around, you notice a light flickering in one of the upstairs rooms. Someone must be home.`,
         answers: {
-          a: "Douglas Crockford",
-          b: "Sheryl Sandberg",
+          a: "walk up to the house and trick or treat",
+          b: "go home, you've got enough sweets for tonight",
           c: "Brendan Eich"
         },
         correctAnswer: "c"
