@@ -143,7 +143,7 @@
 
 @keyframes move1 {
     100% {
-        transform: translateX(59vw);
+        transform: translateX(53vw);
     }
 }
 
@@ -236,47 +236,73 @@
     animation: shiver .6s forwards;
 }
 
-/* Mummy animation */
-.mummy {
-    width: 4rem;
-    height: 6rem;
-  
-}
+/* Jump Scare animation */
 
-/* Witch animation*/
-/* Flash class and keyframe animation */
-.flashit {
-    width: 4rem;
-    height: 6rem;
+.scare1 {
+    position: relative;
     color: #f2f;
-    -webkit-animation: flash linear 1s;
-    animation: flash linear 1s;
+    -webkit-animation: flash both 1s 3;
+    animation: flash both 1s 3;
 }
 
 @-webkit-keyframes flash {
     0% {
-        opacity: 1;
+        opacity: 0;
+        transform: scale(.5);
     }
 
     50% {
         opacity: .1;
+        transform: scale(1);
     }
 
-    100% {
+    80%  {
         opacity: 1;
+        transform: scale(4);
+    }
+    100% {
+        opacity: 0;
     }
 }
 
 @keyframes flash {
     0% {
-        opacity: 1;
+        opacity: 0;
+        transform: scale(.5);
     }
 
     50% {
         opacity: .1;
+        transform: scale(1);
     }
 
+    80% {
+        opacity: 1;
+        transform: scale(4);
+    }
     100% {
+        opacity: 0;
+    }
+}
+
+.sign {
+    z-index:-1;
+    position:relative;
+    opacity: 0;
+    animation-name: sign;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-delay: 5s;
+}
+
+@keyframes sign {
+    from {
+    transform: translateY(-440px);
+    opacity: 0;
+    }
+    to {
+        transform: translateY(-440px);
         opacity: 1;
     }
 }
