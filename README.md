@@ -2,7 +2,6 @@
 
 This a Spookathon web app called *"Creepy House"* developed by the **Creeping it real team** .
 
-
 ![Spookathon logo](wireframes\Hackathonlogo.png)
 
 ## UX
@@ -30,13 +29,11 @@ The themes of this project is Halloween and Trick or Treat.
 
 4. As a user of this web site, I would like to see creativity on the site.
 
-5. As a user of this web site,
-
-   
+5. As a user of this web site, ...
 
 ##### Owner goals
 
-1. As the site owner, I want the visitors to be spooked. 
+1. As the site owner, I want the visitors to be spooked.
 
 ### Structure
 
@@ -46,9 +43,9 @@ The themes of this project is Halloween and Trick or Treat.
 
 #### Colours
 
-- black 
-- grey
-- orange
+- Black
+- Grey
+- Orange
 
 #### Icons
 
@@ -60,16 +57,18 @@ svg images
 
 #### Fonts
 
-Google fonts : Work sans 
+Google fonts : Work sans
 
 ## Features
 
 ### Existing Features
-- Interactive scary ghost story 
+
+- Interactive scary ghost story
 - Creepy animations
 - Spooky Easter eggs
 
 ### Features Left to Implement
+
 - Another feature idea
 
 ## Technologies Used
@@ -95,9 +94,6 @@ Google fonts : Work sans
 - Version control: Git
 - Wireframe: [Balsamiq](https://balsamiq.com/)
 - Kanban planner : [Github projects](https://github.com/alexandruvalentin/team-3-spookathon/projects/1).
-
-
-
 
 ## Testing
 
@@ -181,13 +177,14 @@ You may wish to contribute to this website and have your contribution published,
 
 more detailed instructions available [here](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/fork-a-repo)
 
-
 ## Credits
 
 ### Content
+
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
 
 ### Media
+
 - The photos used in this site were obtained from ...
 
 ### Acknowledgements
