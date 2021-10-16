@@ -94,6 +94,7 @@ Google fonts : Work sans
 - Version control: Git
 - Wireframe: [Balsamiq](https://balsamiq.com/)
 - Kanban planner : [Github projects](https://github.com/alexandruvalentin/team-3-spookathon/projects/1).
+- [Markdown table of contents creator](https://ecotrust-canada.github.io/markdown-toc/)
 
 ## Testing
 
