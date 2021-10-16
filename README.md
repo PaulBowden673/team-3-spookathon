@@ -2,7 +2,7 @@
 
 This a Spookathon web app called *"Creepy House"* developed by the **Creeping it real team** .
 
-![Spookathon logo](wireframes/Hackathonlogo.png)
+![Spookathon logo](wireframes/hackathonlogo.png)
 
 ## UX
 
