@@ -39,6 +39,14 @@ The themes of this project is Halloween and Trick or Treat.
 
 ### Skeleton
 
+#### Wireframe
+
+![wireframe](wireframes\wireframe.png)
+
+#### Story Workflow
+
+![workflow](wireframes\storyboard-flow.png)
+
 ### Surface
 
 #### Colours
