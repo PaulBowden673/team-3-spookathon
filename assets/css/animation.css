@@ -3,7 +3,7 @@
 /* Typeface animation */
 .spooky {
     font-family: 'Eater', cursive;
-    font-size: 40px;
+    font-size: 1rem;
     vertical-align: bottom;
     animation: flicker 4s 0s infinite;
 }
@@ -122,8 +122,8 @@
 
 .tombstone1,
 .tombstone2,
-.tombstone3,
-.mummy {
+.tombstone3
+    {
     width: 4rem;
     height: 6rem;
 }
@@ -234,49 +234,4 @@
     color: blue;
     transform-origin: bottom center;
     animation: shiver .6s forwards;
-}
-
-/* Mummy animation */
-.mummy {
-    width: 4rem;
-    height: 6rem;
-  
-}
-
-/* Witch animation*/
-/* Flash class and keyframe animation */
-.flashit {
-    width: 4rem;
-    height: 6rem;
-    color: #f2f;
-    -webkit-animation: flash linear 1s;
-    animation: flash linear 1s;
-}
-
-@-webkit-keyframes flash {
-    0% {
-        opacity: 1;
-    }
-
-    50% {
-        opacity: .1;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}
-
-@keyframes flash {
-    0% {
-        opacity: 1;
-    }
-
-    50% {
-        opacity: .1;
-    }
-
-    100% {
-        opacity: 1;
-    }
 }

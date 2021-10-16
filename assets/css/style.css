@@ -1,5 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Work+Sans:300,600);
 
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
 
 body {
   font-size: 20px;
@@ -9,17 +14,17 @@ body {
   font-weight: 300;
   text-align: center;
   z-index: -4;
-
+  margin: 2px;
 }
 
 .nav-img {
-  width: 44px;
-  height: 54px;
+  width: 34px;
+  height: 44px;
 }
 
 .nav-text {
   font-family: 'Eater', cursive;
-  font-size: 40px;
+  font-size: 25px;
   vertical-align: bottom;
 }
 
@@ -28,77 +33,54 @@ body {
   vertical-align: bottom;
 }
 
-h1 {
-  font-weight: 600;
-  margin: 0px;
+#main {
+  margin-top: 40px;
+}
+/* (A) WRAPPER */
+#quizWrap {
+  max-width: 80vw;
+  margin: 0 auto;
+  height: 250px;
+}
+
+/* (B) QUESTION */
+#quizQn {
+  padding: 5px;
+  background: #4c93ba;
+  color: #fff;
+  border-radius: 10px;
+}
+
+/* (C) ANSWERS */
+#quizAns {
+  margin: 10px 0;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+}
+
+#quizAns input[type=radio] {
+  display: none;
+}
+
+#quizAns label {
+  background: #fafafa;
+  border: 1px solid #eee;
+  border-radius: 10px;
   padding: 10px;
   font-size: 20px;
-  background-color: #444;
-  color: #fff;
-}
-
-.question {
-  font-size: 1rem;
-  font-weight: 600;
-  margin-bottom: 10px;
-}
-
-.answers {
-  margin-bottom: 20px;
-  text-align: left;
-  display: inline-block;
-}
-
-.answers label {
-  display: block;
-  margin-bottom: 10px;
-}
-
-button {
-  font-family: 'Work Sans', sans-serif;
-  font-size: 22px;
-  background-color: #279;
-  color: #fff;
-  border: 0px;
-  border-radius: 3px;
-  padding: 20px;
   cursor: pointer;
-  margin: 20px;
-  display: inline-block;
+  text-align: center;
 }
 
-button:hover {
-  background-color: #38a;
+#quizAns label.correct {
+  background: #d8ffc4;
+  border: 1px solid #60a03f;
 }
 
-a {
-  text-decoration: none;
-  font-family: Arial;
-  display: block;
-}
-
-
-
-.slide {
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 100%;
-  margin-bottom: 20px;
-  z-index: 1;
-  opacity: 0;
-  transition: opacity 0.5s;
-}
-
-.active-slide {
-  opacity: 1;
-  z-index: 2;
-}
-
-.quiz-container {
-  position: relative;
-  height: 200px;
-  margin-top: 40px;
+#quizAns label.wrong {
+  background: #ffe8e8;
+  border: 1px solid #c78181;
 }
 
 /* Footer Section */
@@ -122,7 +104,11 @@ a {
 
 .footer-content {
   background-color: #000;
-  padding: 1rem 0;
+  padding: 0;
   height: 300px;
+  bottom: 0;
 }
 
+.list-inline .social-links {
+  margin-bottom: 0;
+}
