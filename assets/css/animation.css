@@ -1,13 +1,54 @@
-/* Ghost animantion */
+@import url('https://fonts.googleapis.com/css2?family=Eater&family=Nosifer&display=swap');
 
+/* Typeface animation */
+.spooky {
+    font-family: 'Eater', cursive;
+    font-size: 40px;
+    vertical-align: bottom;
+    animation: flicker 4s 0s infinite;
+}
+
+.small {
+    font-size: 14px;
+    font-family: 'Nosifer';
+}
+
+/* Code from Rachel Bull @ Codepen*/
+@keyframes flicker {
+
+    0%,
+    6%,
+    12% {
+        text-shadow: none;
+        color: #111;
+    }
+
+    3%,
+    9% {
+        text-shadow: 0 0 8px rgba(250, 103, 1, 0.6);
+        color: #fa6701;
+    }
+
+    60% {
+        text-shadow: 0 0 8px rgba(250, 103, 1, 0.6), 0 0 16px rgba(250, 103, 1, 0.4), 0 0 20px rgba(255, 0, 84, 0.2), 0 0 22px rgba(255, 0, 84, 0.1);
+        color: #fa6701;
+    }
+
+    100% {
+        text-shadow: 0 0 8px rgba(250, 103, 1, 0.6), 0 0 16px rgba(250, 103, 1, 0.4), 0 0 20px rgba(255, 0, 84, 0.2), 0 0 22px rgba(255, 0, 84, 0.1);
+        color: #fa6701;
+    }
+}
+
+/* Ghost animantion */
 .ghost {
-    width: 183px;
-    height: 184px;
+    width: 10rem;
+    height: 15rem;
     offset-path: path('M -1408 -3 s 83 -408 369 -5 c 272 624 119 -681 505 -28 c 111 517 361 -522 556 34');
     animation-name: flyL;
     animation-duration: 20s;
     animation-fill-mode: both;
-    animation-iteration-count: 2;
+    animation-iteration-count: infinite;
     animation-direction: reverse;
     animation-delay: 3s;
 }
@@ -29,15 +70,15 @@
 }
 
 .ghost2 {
-    width: 183px;
-    height: 184px;
+    width: 10rem;
+    height: 15rem;
     position: absolute;
     right: 0;
     offset-path: path('M -1408 -3 s 83 -408 369 -5 c 272 624 119 -681 505 -28 c 111 517 361 -522 556 34 ');
     animation-name: flyR;
     animation-duration: 25s;
     animation-fill-mode: both;
-    animation-iteration-count: 2;
+    animation-iteration-count: infinite;
     animation-direction: reverse;
     animation-delay: 3s;
 }
@@ -61,10 +102,9 @@
 }
 
 /* Zombie animation */
-
 .zombie {
-    width: 83px;
-    height: 84px;
+    width: 4rem;
+    height: 6rem;
     position: absolute;
     left: 0;
     animation-name: move;
@@ -76,51 +116,166 @@
 
 @keyframes move {
     100% {
-        transform: translateX(900%);
+        transform: translateX(48vw);
     }
 }
 
 .tombstone1,
-.tombstone2 {
-    width: 83px;
-    height: 84px;
+.tombstone2,
+.tombstone3,
+.mummy {
+    width: 4rem;
+    height: 6rem;
 }
 
+/* Trick or Treater animantion */
 .treater {
-    width: 83px;
-    height: 84px;
+    width: 4rem;
+    height: 6rem;
     position: absolute;
     left: 0;
     animation-name: move1;
     animation-duration: 15s;
     animation-fill-mode: forwards;
     animation-iteration-count: 1;
-    
+
 }
 
 @keyframes move1 {
     100% {
-        transform: translateX(1000%);
+        transform: translateX(59vw);
     }
 }
 
+/* Grim Reaper animantion */
 .grim {
-    width: 83px;
-    height: 84px;
+    width: 4rem;
+    height: 6rem;
     animation-name: appear;
     animation-duration: 30s;
     animation-fill-mode: forwards;
     animation-iteration-count: 1;
-    
+
 }
 
 @keyframes appear {
     0% {
         opacity: 0;
     }
-   50% {
-       opacity: 0;
-   }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Ghost with bag animantion */
+.ghost-bag {
+    width: 4rem;
+    height: 6rem;
+    animation-name: appear1;
+    animation-duration: 20s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+}
+
+@keyframes appear1 {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Text animation */
+/* animate the links on hover */
+@keyframes shiver {
+
+    0%,
+    20%,
+    40%,
+    60%,
+    80% {
+        transform: translateX(4px) translateY(-4px) scale(1.4) rotate(-6deg);
+        color: white;
+    }
+
+    10%,
+    30%,
+    50%,
+    70%,
+    90% {
+        transform: translateX(-4px) translateY(-4px) scale(1.4) rotate(1deg);
+        color: red;
+    }
+}
+
+/* style and position the links */
+.scare {
+    position: relative;
+    display: inline-block;
+    padding: 5px 10px;
+    color: #111;
+    text-decoration: none;
+    transform: translateX(0);
+    transition: background 0.5s ease;
+}
+
+.scare:hover {
+    color: blue;
+    transform-origin: bottom center;
+    animation: shiver .6s forwards;
+}
+
+/* Mummy animation */
+.mummy {
+    width: 4rem;
+    height: 6rem;
+  
+}
+
+/* Witch animation*/
+/* Flash class and keyframe animation */
+.flashit {
+    width: 4rem;
+    height: 6rem;
+    color: #f2f;
+    -webkit-animation: flash linear 1s;
+    animation: flash linear 1s;
+}
+
+@-webkit-keyframes flash {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: .1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes flash {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: .1;
+    }
+
     100% {
         opacity: 1;
     }
