@@ -15,6 +15,9 @@ This a Spookathon web app called [*"Creepy House"*](https://alexandruvalentin.gi
 
 ![Spookathon logo](wireframes/hackathonlogo.png)
 
+
+
+
 ## UX
 
 ### Scope
@@ -286,7 +289,9 @@ svg images
 
 ### Performance Testing
 
-Lighthouse
+Lighthouse test 
+
+![Lighhouse](wireframes/lighthouse-test.png)
 
 ### Functionality Testing
 
