@@ -46,7 +46,7 @@ body {
 #quizWrap {
   max-width: 80vw;
   margin: 0 auto;
-  height: 250px;
+  height: 150px;
 }
 
 /* (B) QUESTION */
@@ -103,7 +103,7 @@ body {
   background-position: bottom left;
   background-repeat: repeat-x;
   background-size: contain;
-  height: 50vh;
+  height: 40vh;
   position: relative;
   bottom: -2px;
 }
@@ -111,7 +111,7 @@ body {
 .footer-content {
   background-color: #000;
   padding: 0;
-  height: 300px;
+  height: 200px;
   bottom: 0;
 }
 
@@ -154,7 +154,7 @@ section#hero {
 /* Main Section */
 
 section#main {
-  height: 100vh;
+ margin-bottom:270px
 }
 
 #main h1 {
@@ -170,13 +170,14 @@ section#main {
 }
 
 #main p {
-  margin-bottom: 5rem;
+  margin-bottom: 2rem;
 }
 
 /* About Section */
 
 section#about {
-  height: 45vh;
+  height: 50vh;
+  margin-top:50px;
   font-size: 1.5rem;
 }
 
