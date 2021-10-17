@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Nosifer
+- Font Author: Copyright (c) 2011, Typomondo, with Reserved Font Name "Nosifer"
+- Font Source: http://fonts.gstatic.com/s/nosifer/v11/ZGjXol5JTp0g5bxZaC1RVDNdGDs.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))
