@@ -13,7 +13,7 @@ This a Spookathon web app called [*"Creepy House"*](https://alexandruvalentin.gi
 - [Tom Dawes](https://github.com/tdawes93)
 - [Ken Walsh](https://github.com/kenwals)
 
-![Spookathon logo](wireframes/hackathonlogo.png)
+![Creepy-House](https://github.com/alexandruvalentin/team-3-spookathon/blob/main/assets/documents/Creep-House-AIR.png)
 
 ---
 
@@ -69,7 +69,7 @@ This a Spookathon web app called [*"Creepy House"*](https://alexandruvalentin.gi
 
 ### Scope
 
-The themes of this project is a Halloween haunted house and Trick or Treat.
+The theme of this project is a Halloween haunted house and Trick or Treat.
 
 #### Requirements
 
