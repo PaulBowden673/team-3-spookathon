@@ -17,6 +17,11 @@ body {
   margin: 2px;
 }
 
+.navbar {
+  background: transparent;
+  z-index: 9999;
+}
+
 .nav-img {
   width: 34px;
   height: 44px;
@@ -111,4 +116,32 @@ body {
 
 .list-inline .social-links {
   margin-bottom: 0;
+}
+
+/* Hero Section */
+
+section#hero {
+  position: relative;
+  height: 100vh;
+  background: url("../images/hero-image.jpg") fixed;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  justify-content: left;
+  top: -86px;
+}
+
+.hero-column {
+  width: 50%;
+  text-align: left;
+  font-size: 1.6rem;
+  letter-spacing: 0.3px;
+  color: #FFEE88;
+  text-shadow: 4px 4px 8px #6A994E;
+  font-family: 'Eater', cursive;
 }

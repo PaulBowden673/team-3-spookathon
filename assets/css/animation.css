@@ -3,7 +3,7 @@
 /* Typeface animation */
 .spooky {
     font-family: 'Eater', cursive;
-    font-size: 1rem;
+    font-size: 2rem;
     vertical-align: bottom;
     animation: flicker 4s 0s infinite;
 }
@@ -231,7 +231,7 @@
 }
 
 .scare:hover {
-    color: blue;
+    color: #FFEE88;
     transform-origin: bottom center;
     animation: shiver .6s forwards;
 }
