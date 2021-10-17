@@ -29,7 +29,7 @@ var quiz = {
         a: 1
       },
       {
-        q: `As you enter the room the door suddenly slams behind you, the room is pitch black you can't see you hand in front of your face. 
+        q: `As you enter the room the door suddenly slams behind you, the room is pitch black you can't see your hand in front of your face. 
             Lightening strikes, the flash lights 
             up the room and you see a shadow in the corner. On the opposite side of the room is another door, this one shut.
     `,
