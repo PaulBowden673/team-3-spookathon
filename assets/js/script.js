@@ -1,4 +1,6 @@
-var quiz = {
+/*jshint esversion: 6 */
+
+let quiz = {
     // (A) PROPERTIES
     // (A1) QUESTIONS & ANSWERS
     // Q = QUESTION, O = OPTIONS, A = CORRECT ANSWER
@@ -180,7 +182,7 @@ hWrap: null, // HTML quiz container
       } else {
         quiz.hQn.innerHTML = `You have Survived the Creepy House.`;
         quiz.hAns.innerHTML = "";
-        window.location.assign("scare.html")
+        window.location.assign("scare.html");
       }
     }, 1000);
   },
