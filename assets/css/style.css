@@ -38,6 +38,10 @@ body {
   vertical-align: bottom;
 }
 
+.text-left {
+  font-size: 12px;
+}
+
 #main {
   margin-top: 40px;
 }
