@@ -1,4 +1,4 @@
-# Creepy House 
+# Creepy House
 
 :jack_o_lantern::ghost::spider::spider_web:
 
