@@ -333,6 +333,7 @@ back to [contents](#table-of-contents)
 - IDE: Visual Studio Code (VS Code) or Gitpod 
 - Version control: Git
 - Wireframe: [Balsamiq](https://balsamiq.com/)
+- [Responsive mock up display](http://ami.responsivedesign.is/)
 - Kanban planner : [Github projects](https://github.com/alexandruvalentin/team-3-spookathon/projects/1).
 - [Markdown table of contents creator](https://ecotrust-canada.github.io/markdown-toc/)
 
