@@ -3,7 +3,7 @@
 /* Typeface animation */
 .spooky {
     font-family: 'Eater', cursive;
-    font-size: 40px;
+    font-size: 1rem;
     vertical-align: bottom;
     animation: flicker 4s 0s infinite;
 }
@@ -122,8 +122,8 @@
 
 .tombstone1,
 .tombstone2,
-.tombstone3,
-.mummy {
+.tombstone3
+    {
     width: 4rem;
     height: 6rem;
 }

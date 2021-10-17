@@ -22,8 +22,8 @@
     <header>
         <!-- Navbar -->
         <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="container-fluid">
-                <a href="#" class="navbar-brand">
+            <div class="container-fluid p-0">
+                <a href="#" class="navbar-brand me-0">
                     <img class="nav-img" src="/assets/images/hauntedhouse-lg.svg" alt="">
                     <span class="nav-text">Creepy House</span></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -45,35 +45,20 @@
         </nav>
 
     </header>
-    <section id="main">
-
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="quiz-container">
-                        <div id="quiz"></div>
-                    </div>
-                    <div class="d-grid gap-2 d-md-block">
-                        <button class="btn btn-primary btn-sm" id="previous">Previous Question</button>
-                        <button class="btn btn-primary btn-sm" id="next">Next Question</button>
-                        <button class="btn btn-primary btn-sm" id="submit">Submit Quiz</button>
-                    </div>
-                    <div id="results"></div>
-                </div>
-            </div>
-        </div>
-        <div class="container-fluid">
-            <img src="assets/images/Ghost_002.svg" alt="" class=" ghost img-fluid">
-            <img src="assets/images/Ghost_002.svg" alt="" class=" ghost2 img-fluid">
-        </div>
-
+    <section class="main" id="main">
+            <!-- (B) QUIZ CONTAINER -->
+            <div id="quizWrap"></div>
+            
+                <img src="assets/images/Ghost_002.svg" alt="" class=" ghost img-fluid">
+                <img src="assets/images/Ghost_002.svg" alt="" class=" ghost2 img-fluid">
+        
     </section>
 
     <footer id="footer" class="container-fluid p-0">
         <!-- CREDITS: https://freesvg.org/ -->
-        <div class="footer-divider col-12" style="background-image: url('assets/images/footer-svg.svg');">
+        <div class="footer-divider" style="background-image: url('assets/images/footer-svg.svg');">
         </div>
-        <div class="footer-content col-12">
+        <div class="footer-content">
             <div class="col-12">
                 <div class="container-fluid">
                     <img src="assets/images/Male-Zombie.svg" alt="" class=" zombie img-fluid">
@@ -86,24 +71,20 @@
                 </div>
                 <p class="small">Creeping it Real &copy 2021</p>
             </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <ul class="list-inline social-links">
-                            <li class="list-inline-item">
-                                <a class="spooky scare" target="_blank" rel="noopener" href="https://www.facebook.com">
-                                    Faceboohoohook
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a class="spooky scare" target="_blank" rel="noopener" href="https://www.twitter.com">
-                                    Twitterrghh
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
+            <div class="container-fluid">
+                    <ul class="list-inline social-links">
+                        <li class="list-inline-item">
+                            <a class="spooky scare" target="_blank" rel="noopener" href="https://www.facebook.com">
+                                Faceboohoohook
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="spooky scare" target="_blank" rel="noopener" href="https://www.twitter.com">
+                                Twitterrghh
+                            </a>
+                        </li>
+                    </ul>
                 </div>
-            </div>
         </div>
     </footer>
     <!-- jQuery Script -->
