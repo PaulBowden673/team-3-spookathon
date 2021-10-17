@@ -94,25 +94,14 @@ var quiz = {
   },
 {
   q: `You manage to help your sister through the window. Yelling at her to run, you pull yourself up to squeeze through the tight gap.
-      As you're halfway through someone grabs your legs and pulls you back, into the darkness.`,
+      As you're halfway through someone grabs your legs and pulls you back, into the darkness...`,
   o: [
-    "Atlantic Ocean",
-    "Indian Ocean",
-    "Arctic Ocean",
-    "Pacific Ocean"
+    "Scream",
+    "Faint",
+    
   ],
-  a: 3
+  a: 0
 },
-{
-  q: "Which is the largest ocean on Earth?",
-  o: [
-    "Atlantic Ocean",
-    "Indian Ocean",
-    "Arctic Ocean",
-    "Pacific Ocean"
-  ],
-  a: 3
-}
 ],
 
 // (A2) HTML ELEMENTS
@@ -175,12 +164,17 @@ hWrap: null, // HTML quiz container
 
     // (D2) CHECK IF CORRECT
     let correct = this.dataset.idx == quiz.data[quiz.now].a;
+    let wrong = this.dataset.idx !== quiz.data[quiz.now].a;
     if (correct) {
       quiz.score++;
       this.classList.add("correct");
-    } else {
-      this.classList.add("wrong");
     }
+     else if (wrong) {
+      window.location.assign("index.html");
+    }
+     else {
+       this.classList.add("wrong");   
+     }
 
     // (D3) NEXT QUESTION OR END GAME
     quiz.now++;
@@ -188,8 +182,9 @@ hWrap: null, // HTML quiz container
       if (quiz.now < quiz.data.length) {
         quiz.draw();
       } else {
-        quiz.hQn.innerHTML = `You have answered ${quiz.score} of ${quiz.data.length} correctly.`;
+        quiz.hQn.innerHTML = `You have Survived the Creepy House.`;
         quiz.hAns.innerHTML = "";
+        window.location.assign("scare.html")
       }
     }, 1000);
   },
