@@ -13,7 +13,7 @@ This a Spookathon web app called [*"Creepy House"*](https://alexandruvalentin.gi
 - [Tom Dawes](https://github.com/tdawes93)
 - [Ken Walsh](https://github.com/kenwals)
 
-![Creepy-House](https://github.com/alexandruvalentin/team-3-spookathon/blob/main/assets/documents/Creep-House-AIR.png)
+![Creepy-House](documents/Creep-House-AIR.png)
 
 ---
 
