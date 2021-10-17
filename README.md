@@ -220,7 +220,9 @@ The themes of this project is Halloween and Trick or Treat.
 - #00000- **Black**
 - #FF934F - **Robin Egg Blue**
 - #FFEE88 - **Yellow (Crayola)**
-- \#BB0A1E - **Blood red**
+- #BB0A1E - **Blood red**
+
+![colour palette](wireframes/spookycolorpalette.png)
 
 #### Icons
 
@@ -232,9 +234,15 @@ svg images
 
 #### Fonts
 
-- Eater 
-- Work sans (google fonts)
+- Eater
+
+![font eater](wireframes/font-eater.png)
+
 - Nosifer
+
+![font nosifer](wireframes/font-nosifer.png)
+
+- Work sans (google fonts)
 
 ## Features
 
@@ -369,4 +377,5 @@ more detailed instructions available [here](https://docs.github.com/en/free-pro-
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- Thanks to [Iryna Sanzhara](https://github.com/irasan) our team faciliator and git lifesaver.
+- The Code institute Hackathon team for organising this spooky event.
