@@ -19,7 +19,7 @@ This a Spookathon web app called [*"Creepy House"*](https://alexandruvalentin.gi
 
 ### Scope
 
-The themes of this project is Halloween and Trick or Treat.
+The themes of this project is a Halloween haunted house and Trick or Treat.
 
 #### Requirements
 
@@ -40,7 +40,7 @@ The themes of this project is Halloween and Trick or Treat.
 
 4. As a user of this web site, I would like to see creativity on the site.
 
-5. As a user of this web site, ...
+5. As a user of this web site, I want to be scared.
 
 ##### Owner goals
 
@@ -255,7 +255,7 @@ svg images
 
 ### Features Left to Implement
 
-- Another feature idea
+- Audio
 
 ## Technologies Used
 
@@ -368,7 +368,8 @@ more detailed instructions available [here](https://docs.github.com/en/free-pro-
 
 ### Content
 
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+- The JS interactive story code is inspired by X
+- The animations code is inspired by a linkedin learning course on CSS animation.
 
 ### Media
 
