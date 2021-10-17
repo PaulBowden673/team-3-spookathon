@@ -9,10 +9,9 @@ This a Spookathon web app called [*"Creepy House"*](https://alexandruvalentin.gi
 ## Creeping it real team members
 
 - [Paul Bowden](https://github.com/PaulBowden673)
-- [Alexandru Valentin](https://github.com/alexandruvalentin) 
+- [Alexandru Valentin](https://github.com/alexandruvalentin)
 - [Tom Dawes](https://github.com/tdawes93)
 - [Ken Walsh](https://github.com/kenwals)
-
 
 ![Spookathon logo](wireframes/hackathonlogo.png)
 
@@ -156,7 +155,7 @@ The themes of this project is Halloween and Trick or Treat.
 >
 > b)You go back to the first room and over to the door. Someone has locked it! You sprint back to dining room.
 >
-> <!-- reselect options on page 5>
+> < reselect options on page 5>
 >
 >
 > Page 6.
