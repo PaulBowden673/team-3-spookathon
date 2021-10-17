@@ -15,8 +15,55 @@ This a Spookathon web app called [*"Creepy House"*](https://alexandruvalentin.gi
 
 ![Spookathon logo](wireframes/hackathonlogo.png)
 
+---
 
+## Table of contents
 
+- [UX](#ux)
+  * [Scope](#scope)
+    + [Requirements](#requirements)
+  * [User stories](#user-stories)
+    + [Visitor goals](#visitor-goals)
+      - [Owner goals](#owner-goals)
+  * [Structure](#structure)
+  * [Skeleton](#skeleton)
+    + [Wireframe](#wireframe)
+    + [Story Workflow](#story-workflow)
+    + [Story Outline](#story-outline)
+  * [Surface](#surface)
+    + [Colours](#colours)
+    + [Icons](#icons)
+    + [Images](#images)
+    + [Fonts](#fonts)
+- [Features](#features)
+  * [Existing Features](#existing-features)
+  * [Features Left to Implement](#features-left-to-implement)
+- [Technologies Used](#technologies-used)
+  * [Frontend](#frontend)
+    + [Languages](#languages)
+    + [Libraries and Frameworks](#libraries-and-frameworks)
+    + [Tools](#tools)
+- [Testing](#testing)
+  * [Performance Testing](#performance-testing)
+  * [Functionality Testing](#functionality-testing)
+  * [Known issues](#known-issues)
+  * [Project barriers and solutions](#project-barriers-and-solutions)
+  * [CSS3 validator](#css3-validator)
+  * [HTML5 validator](#html5-validator)
+  * [JavaScript validator](#javascript-validator)
+  * [Testing User Stories](#testing-user-stories)
+    + [Visitor Stories](#visitor-stories)
+    + [Owner Story](#owner-story)
+- [Deployment](#deployment)
+  * [GitHub](#github)
+  * [Gitpod](#gitpod)
+  * [GitHub Pages](#github-pages)
+  * [Local Deployment](#local-deployment)
+  * [Forking](#forking)
+- [Credits](#credits)
+  * [Content](#content)
+  * [Media](#media)
+  * [Acknowledgements](#acknowledgements)
 
 ## UX
 
@@ -247,6 +294,10 @@ svg images
 
 - Work sans (google fonts)
 
+back to [contents](#table-of-contents)
+
+---
+
 ## Features
 
 ### Existing Features
@@ -285,6 +336,10 @@ svg images
 - Kanban planner : [Github projects](https://github.com/alexandruvalentin/team-3-spookathon/projects/1).
 - [Markdown table of contents creator](https://ecotrust-canada.github.io/markdown-toc/)
 
+back to [contents](#table-of-contents)
+
+---
+
 ## Testing
 
 ### Performance Testing
@@ -316,6 +371,10 @@ https://jshint.com/
 #### Visitor Stories
 
 #### Owner Story
+
+back to [contents](#table-of-contents)
+
+---
 
 ## Deployment
 
@@ -369,6 +428,10 @@ You may wish to contribute to this website and have your contribution published,
 
 more detailed instructions available [here](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/fork-a-repo)
 
+back to [contents](#table-of-contents)
+
+---
+
 ## Credits
 
 ### Content
@@ -385,3 +448,5 @@ more detailed instructions available [here](https://docs.github.com/en/free-pro-
 
 - Thanks to [Iryna Sanzhara](https://github.com/irasan) our team faciliator and git lifesaver.
 - The Code institute Hackathon team for organising this spooky event.
+
+back to [contents](#table-of-contents)
