@@ -170,7 +170,7 @@ hWrap: null, // HTML quiz container
       this.classList.add("correct");
     }
      else if (wrong) {
-      window.location.assign("#hero");
+      window.location.reload("#hero").scrollTo(0,0);
     }
      else {
        this.classList.add("wrong");   
