@@ -1,14 +1,75 @@
 # Creepy House
 
-This a Spookathon web app called *"Creepy House"* developed by the **Creeping it real team** .
+:jack_o_lantern::ghost::spider::spider_web:
+
+This a Spookathon web app called [*"Creepy House"*](https://alexandruvalentin.github.io/team-3-spookathon/) developed by the **Creeping it real team** .
+
+  Check it out [here](https://alexandruvalentin.github.io/team-3-spookathon/)
+
+## Creeping it real team members
+
+- [Paul Bowden](https://github.com/PaulBowden673)
+- [Alexandru Valentin](https://github.com/alexandruvalentin)
+- [Tom Dawes](https://github.com/tdawes93)
+- [Ken Walsh](https://github.com/kenwals)
 
 ![Spookathon logo](wireframes/hackathonlogo.png)
+
+---
+
+## Table of contents
+
+- [UX](#ux)
+  * [Scope](#scope)
+    + [Requirements](#requirements)
+  * [User stories](#user-stories)
+    + [Visitor goals](#visitor-goals)
+      - [Owner goals](#owner-goals)
+  * [Structure](#structure)
+  * [Skeleton](#skeleton)
+    + [Wireframe](#wireframe)
+    + [Story Workflow](#story-workflow)
+    + [Story Outline](#story-outline)
+  * [Surface](#surface)
+    + [Colours](#colours)
+    + [Icons](#icons)
+    + [Images](#images)
+    + [Fonts](#fonts)
+- [Features](#features)
+  * [Existing Features](#existing-features)
+  * [Features Left to Implement](#features-left-to-implement)
+- [Technologies Used](#technologies-used)
+  * [Frontend](#frontend)
+    + [Languages](#languages)
+    + [Libraries and Frameworks](#libraries-and-frameworks)
+    + [Tools](#tools)
+- [Testing](#testing)
+  * [Performance Testing](#performance-testing)
+  * [Functionality Testing](#functionality-testing)
+  * [Known issues](#known-issues)
+  * [Project barriers and solutions](#project-barriers-and-solutions)
+  * [CSS3 validator](#css3-validator)
+  * [HTML5 validator](#html5-validator)
+  * [JavaScript validator](#javascript-validator)
+  * [Testing User Stories](#testing-user-stories)
+    + [Visitor Stories](#visitor-stories)
+    + [Owner Story](#owner-story)
+- [Deployment](#deployment)
+  * [GitHub](#github)
+  * [Gitpod](#gitpod)
+  * [GitHub Pages](#github-pages)
+  * [Local Deployment](#local-deployment)
+  * [Forking](#forking)
+- [Credits](#credits)
+  * [Content](#content)
+  * [Media](#media)
+  * [Acknowledgements](#acknowledgements)
 
 ## UX
 
 ### Scope
 
-The themes of this project is Halloween and Trick or Treat.
+The themes of this project is a Halloween haunted house and Trick or Treat.
 
 #### Requirements
 
@@ -29,7 +90,7 @@ The themes of this project is Halloween and Trick or Treat.
 
 4. As a user of this web site, I would like to see creativity on the site.
 
-5. As a user of this web site, ...
+5. As a user of this web site, I want to be scared.
 
 ##### Owner goals
 
@@ -47,13 +108,171 @@ The themes of this project is Halloween and Trick or Treat.
 
 ![workflow](wireframes/storyboard-flow.png)
 
+#### Story Outline
+
+> Page 1.
+>
+> `You're out trick or treating with your younger sister.
+> It's cold, dark and you've strayed away from the streets you know to an unfamiliar part of town.
+> You walk up to the next house which is different from the other houses on the road. 
+> It has a large wrought iron fence around the perimeter, overgrown trees, bushes hanging over the fence and some broken windows
+> on the top floor.
+> As you're about to turn around, you notice a light flickering in one of the upstairs rooms. Someone must be home.`
+>
+> Do you:
+> a) walk up to the house and trick or treat
+> b) go home, you've got enough sweets for tonight
+>
+> Answer:
+> a) as you approach the door thunder crashes and rain starts pouring down, so you quickly stand under the porch
+>
+> or
+>
+> b) you decide to turn around and go home when thunder crashes and rain starts to pour down. You run to the house and stand under the porch
+> in order to stay dry.
+>
+> Page 2. 
+>
+> The door is open and in the wind, it slowly creeks ajar. You walk in wearily, reassuring your sister it'll be ok.
+>
+> Inside you are greeted with a large grand staircase with old portraits up the side. All the furniture is covered in sheets, 
+> the rugs are old and dusty with cobwebs draped across the banister. There is a chandelier hanging from the ceiling, swaying slowly 
+> in the wind. To the left of the room is an open door leading through to a dark room.
+>
+> Do you:
+> a)Call out "hello"
+> b)Walk through the open door
+>
+> Answer:
+> a) You shout out"Hello", if someone's home they must have heard you. You hear a creek upstairs, but then silence. 
+> Your sister tells you she's scared and doesn't want to go upstairs so you decide to walk through the open door to the left.
+>
+> or
+>
+> b) You decide to walk through the door to the left, better to stay downstairs than start sneaking around the whole house.
+>
+>
+> Page 3.
+>
+> As you enter the room the door suddenly slams behind you, the room is pitch black you can't see you hand in front of your face. Ligthening strikes, the flash lights 
+> up the room and you see a shadow in the corner. On the opposite side of the room is another door, this one shut.
+>
+> Do you:
+> a)Open the closed door and see what's inside
+> b)Inspect the shadow in the corner
+>
+> Answer
+> a) The shadow in the corner turns out to be a coat hanging from the wall. "See nothing to be scared off" you tell your sister. 
+> <!-- go back to the choices -->
+>
+> or
+>
+> b) You slowly walk over to the door, "best to keep moving" you tell yourself.
+>
+> Page 4.
+> You walk up to the door and slowly reach for the handle. It's unlocked! As you cautiously open the door a bat frantically
+> flies through the doorway at you. <!--Potential jump scare-->
+> Taking a moment to compose yourself you walk through into a large dining room.
+> The room is dim but you can just make out the table is set for dinner, some candles are lit flickering in the draft, 
+> food half eaten and still warm, as if someone left in a rush. One of the windows is left ajar.
+>
+> Do you:
+> a) Walk over to the window to check it out
+> b) Use the lit candles on the table to light the rest of the candles in the room
+>
+> Answer
+> a) You walk over to the window and decide to close it to keep the wind and rain out. The window won't move as you try to close it,
+> almost like it's painted shut. As you're using all your strength to close the window ou feel a prickly feeling on the back of your neck. 
+> You slowly look up and a cobweb full of spiders is directly above you making their way down and starting to crawl all over you.
+>
+> or
+> b)As you walk around the room, lighting the candles, it begins to get clearer and brighter. You notice a large cobweb full of spiders
+> over the window. Your sister nervously utters "I don't like spiders, let's not go there". You agree.
+>
+> Page 5.
+>
+> You decide it's time to leave, this is getting too creepy. As you're looking for a way out the window slams shut! 
+> Frantically searching for a way out you notice a door that wasn't there before.
+>
+> Do you:
+> a) Try this new door
+> b) Go back the way you came through the first room
+>
+> Answer 
+> a)You decide to try this new door, again it's unlocked so you slowly push it open and walk through.
+>
+> or
+>
+> b)You go back to the first room and over to the door. Someone has locked it! You sprint back to dining room.
+>
+> < reselect options on page 5>
+>
+>
+> Page 6.
+>
+> You walk through this new door. Inside it's cold and damp, with stairs heading both up and down infront of you. A draft flows up the
+> stairs with a slight howl that sounds like a woman crying out for help. You can't see beyond the 6th step on either set of stairs.
+> One way must lead out, but which?
+>
+> Do you
+> a) go up - to page 7.
+> b) go down - to page 9.
+>
+> Page 7.
+> a)The door leads out a secret bookcase at the top of the grand staircase. You breathe a sign of releif as you can see the way out.
+> You smile at your sister to reassure her. Suddenly footsteps can be heard coming from down the hall.
+>
+> Do you
+> a) run for the front door
+> b) go back through the secret bookcase and down the stairs to hide - to page 9
+>
+> Page 8.
+>
+> You grab your sister's hand tight and sprint straight down the staircase and for the front door. Bursting through the door you can
+> hear the footsteps getting closer and faster. As you're half way down the path you look back to the house, a dark figure is standing in
+> the shadows in the doorway, staring at you and your sister. You don't stop running until you're home. 
+>
+> Congratulations, you made it out of the house safely!
+>
+> Page 9. 
+>
+> You head down the stairs, they lead down to the basement. The basement is gloomy with low ceilings, there's a camp bed and wardrobe in
+> the corner. It's clear someone is living here. Looking round the room there's a small broken window in the upper corner of the room, a 
+> storm door clattering in the wind and creepily behind the stairs there's three cages with beds and chains inside. 
+> You hear footsteps coming down the stairs, and the clunk of metal being dragged down each step. Bang. Bang. Bang.
+> You have to get out of there fast!
+>
+> Do you
+> a) give you sister a leg up through the broken window, and follow her through - go to page 10.
+> b) run to the storm door and try and break out - go to page 11.
+>
+> Page 10.
+>
+> a) You manage to help your sister through the window. Yelling at her to run, you pull yourself up to squeeze through the tight gap.
+> As you're halfway through someone grabs your legs and pulls you back, into the darkness.
+>
+> Jump Scare! Unfortunately you have failed to make it out of the house safely
+>
+> Page 11.
+>
+> b) The storm door is locked, you barge the door with your shoulder to try and burst it open. It crashes but no movement. You take a step 
+> back for another run up and someone grabs you, with their hand over your mouth and pulls you into the shadows.
+>
+> Jump Scare! Unfortunately you have failed to make it out of the house safely
+
 ### Surface
 
 #### Colours
 
-- Black
-- Grey
-- Orange
+- #2F5363 - **Police Blue**
+- #6A994E - **Palm Leaf**
+- #fff - **White**
+- #00000- **Black**
+- #FF934F - **Robin Egg Blue**
+- #FFEE88 - **Yellow (Crayola)**
+- #BB0A1E - **Blood red**
+
+![colour palette](wireframes/spookycolorpalette.png)
 
 #### Icons
 
@@ -65,7 +284,19 @@ svg images
 
 #### Fonts
 
-Google fonts : Work sans
+- Eater
+
+![font eater](wireframes/font-eater.png)
+
+- Nosifer
+
+![font nosifer](wireframes/font-nosifer.png)
+
+- Work sans (google fonts)
+
+back to [contents](#table-of-contents)
+
+---
 
 ## Features
 
@@ -73,11 +304,12 @@ Google fonts : Work sans
 
 - Interactive scary ghost story
 - Creepy animations
-- Spooky Easter eggs
+- Spooky surprises
+- Drop scare
 
 ### Features Left to Implement
 
-- Another feature idea
+- Audio
 
 ## Technologies Used
 
@@ -101,14 +333,21 @@ Google fonts : Work sans
 - IDE: Visual Studio Code (VS Code) or Gitpod 
 - Version control: Git
 - Wireframe: [Balsamiq](https://balsamiq.com/)
+- [Responsive mock up display](http://ami.responsivedesign.is/)
 - Kanban planner : [Github projects](https://github.com/alexandruvalentin/team-3-spookathon/projects/1).
 - [Markdown table of contents creator](https://ecotrust-canada.github.io/markdown-toc/)
+
+back to [contents](#table-of-contents)
+
+---
 
 ## Testing
 
 ### Performance Testing
 
-Lighthouse
+Lighthouse test 
+
+![Lighhouse](wireframes/lighthouse-test.png)
 
 ### Functionality Testing
 
@@ -133,6 +372,10 @@ https://jshint.com/
 #### Visitor Stories
 
 #### Owner Story
+
+back to [contents](#table-of-contents)
+
+---
 
 ## Deployment
 
@@ -186,16 +429,25 @@ You may wish to contribute to this website and have your contribution published,
 
 more detailed instructions available [here](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/fork-a-repo)
 
+back to [contents](#table-of-contents)
+
+---
+
 ## Credits
 
 ### Content
 
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+- The JS interactive story code is inspired by X
+- The animations code is inspired by a linkedin learning course on CSS animation.
 
 ### Media
 
-- The photos used in this site were obtained from ...
+- Creepy house image sourced from unsplash
+- svg footer images sourced on google images
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- Thanks to [Iryna Sanzhara](https://github.com/irasan) our team faciliator and git lifesaver.
+- The Code institute Hackathon team for organising this spooky event.
+
+back to [contents](#table-of-contents)
