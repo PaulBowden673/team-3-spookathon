@@ -5,6 +5,7 @@
     font-family: 'Eater', cursive;
     vertical-align: bottom;
     animation: flicker 4s 0s infinite;
+    text-decoration: none;
 }
 
 .small {
@@ -241,6 +242,7 @@
     color: #FFEE88;
     transform-origin: bottom center;
     animation: shiver .6s forwards;
+    text-decoration: none;
 }
 
 /* Jump Scare animation */

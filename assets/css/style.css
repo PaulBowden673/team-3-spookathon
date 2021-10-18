@@ -110,8 +110,7 @@ body {
 
 .footer-content {
   background-color: #000;
-  padding: 0;
-  height: 200px;
+  height: 350px;
   bottom: 0;
 }
 
@@ -154,7 +153,7 @@ section#hero {
 /* Main Section */
 
 section#main {
- margin-bottom:270px
+ height: 90vh;
 }
 
 #main h1 {
@@ -176,8 +175,7 @@ section#main {
 /* About Section */
 
 section#about {
-  height: 50vh;
-  margin-top:50px;
+  height: 90vh;
   font-size: 1.5rem;
 }
 
@@ -206,8 +204,4 @@ section#about {
 
 .team-column a:hover {
   color: #FFEE88;
-}
-
-.about-container {
-  margin-top: 4rem;
 }
