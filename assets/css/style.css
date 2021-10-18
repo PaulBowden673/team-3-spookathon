@@ -205,3 +205,9 @@ section#about {
 .team-column a:hover {
   color: #FFEE88;
 }
+
+/* Scare.HTML */
+
+section#jump-scare {
+  height: 50vh;
+}
