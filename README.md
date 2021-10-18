@@ -353,17 +353,27 @@ Lighthouse test
 
 ### Known issues
 
+#### Small screen compatabiliy issue
+
+Web app has a responsive display problem on smaller screen sizes such as the iphone5
+
 ### Project barriers and solutions
 
 ### CSS3 validator
+
+No major issues found
 
 https://jigsaw.w3.org/css-validator/
 
 ### HTML5 validator
 
+No major issues found
+
 https://validator.w3.org/
 
 ### JavaScript validator
+
+No issues found
 
 https://jshint.com/
 
