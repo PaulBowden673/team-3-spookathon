@@ -12,8 +12,8 @@ let quiz = {
             on the top floor.
             As you're about to turn around, you notice a light flickering in one of the upstairs rooms. Someone must be home.`,
         o: [
-            `Do You walk up to the house and trick or treat.`,
-            `Do You go home, you've got enough sweets for tonight.`,
+            `Do you walk up to the house and trick or treat.`,
+            `Do you go home, you've got enough sweets for tonight.`,
 
         ],
         a: 0
@@ -25,8 +25,8 @@ let quiz = {
             the rugs are old and dusty with cobwebs draped across the banister. There is a chandelier hanging from the ceiling, swaying slowly 
             in the wind. To the left of the room is an open door leading through to a dark room.`,
         o: [
-            `Do You decide to try upstairs, after all that's where you saw the light earlier. You hear a creek upstairs, but then silence.`,
-            `Do You decide to walk through the door to the left, better to stay downstairs than start sneaking around the whole house.`,
+            `Do you decide to try upstairs, after all that's where you saw the light earlier. You hear a creek upstairs, but then silence.`,
+            `Do you decide to walk through the door to the left, better to stay downstairs than start sneaking around the whole house.`,
         ],
         a: 1
       },
@@ -36,8 +36,8 @@ let quiz = {
             up the room and you see a shadow in the corner. On the opposite side of the room is another door, this one shut.
     `,
         o: [
-          `Do You slowly walk over to the door, "best to keep moving" you tell yourself. Open the closed door and see what's inside`,
-          `Do You Inspect the shadow in the corner. The shadow in the corner turns out to be a coat hanging from the wall." See nothing to be scared of" you tell your sister.`,
+          `Do you slowly walk over to the door, "best to keep moving" you tell yourself. Open the closed door and see what's inside`,
+          `Do you Inspect the shadow in the corner. The shadow in the corner turns out to be a coat hanging from the wall." See nothing to be scared of" you tell your sister.`,
         ],
         a: 0
       },
@@ -51,7 +51,7 @@ let quiz = {
             `Do you walk over to the window and decide to close it to keep the wind and rain out. The window won't move as you try to close it,
             almost like it's painted shut. As you're using all your strength to close the window you feel a prickly feeling on the back of your neck.
             You slowly look up and a cobweb full of spiders is directly above you making their way down and starting to crawl all over you.`,
-            `Do You use the lit candles on the table to light the rest of the candles in the room As you walk around the room, lighting the candles, it begins to get clearer and brighter. You notice a large cobweb full of spiders
+            `Do you use the lit candles on the table to light the rest of the candles in the room As you walk around the room, lighting the candles, it begins to get clearer and brighter. You notice a large cobweb full of spiders
             over the window. Your sister nervously utters "I don't like spiders, let's not go there". You agree.`,
         ],
         a: 0
@@ -60,8 +60,8 @@ let quiz = {
         q: `You decide it's time to leave, this is getting too creepy. As you're looking for a way out the window slams shut! 
             Frantically searching for a way out you notice a door that wasn't there before.`,
         o: [
-            `Do You decide to try this new door, again it's unlocked so you slowly push it open and walk through.`,
-            `Do You go back the way you came through the first room, You go back to the first room and over to the door. Someone has locked it! You sprint back to dining room.`,
+            `Do you decide to try this new door, again it's unlocked so you slowly push it open and walk through.`,
+            `Do you go back the way you came through the first room, You go back to the first room and over to the door. Someone has locked it! You sprint back to dining room.`,
 
         ],
         a: 0
@@ -84,8 +84,8 @@ let quiz = {
         You hear footsteps coming down the stairs, and the clunk of metal being dragged down each step. Bang. Bang. Bang.
         You have to get out of there fast!`,
     o: [
-      `Do You give your sister a leg up through the broken window, and follow her through` ,
-      `Do You run to the storm door and try and break out`,
+      `Do you give your sister a leg up through the broken window, and follow her through` ,
+      `Do you run to the storm door and try and break out`,
     
     ],
     a: 0
